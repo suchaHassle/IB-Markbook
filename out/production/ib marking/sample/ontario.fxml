@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.OSSDController">
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox>
+               <children>
+                  <Region prefHeight="371.0" prefWidth="51.0" HBox.hgrow="ALWAYS" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Level 1">
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </Text>
+                  <Region prefHeight="371.0" prefWidth="54.0" HBox.hgrow="ALWAYS" />
+                  <TextField alignment="TOP_CENTER" disable="true" editable="false" text="0" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets top="15.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="to">
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </Text>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+                  <TextField fx:id="level1up" alignment="TOP_CENTER" onKeyReleased="#level1Listner" text="49" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets top="15.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Region prefHeight="371.0" prefWidth="51.0" HBox.hgrow="ALWAYS" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Level 2">
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </Text>
+                  <Region prefHeight="51.0" prefWidth="51.0" HBox.hgrow="ALWAYS" />
+                  <TextField fx:id="level2low" alignment="TOP_CENTER" onKeyReleased="#level2lowListner" text="50" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets top="15.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="to">
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </Text>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+                  <TextField fx:id="level2up" alignment="TOP_CENTER" onKeyReleased="#level2upListner" text="60" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets top="15.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Region prefHeight="371.0" prefWidth="51.0" HBox.hgrow="ALWAYS" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Level 3">
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </Text>
+                  <Region prefHeight="51.0" prefWidth="51.0" HBox.hgrow="ALWAYS" />
+                  <TextField fx:id="level3low" alignment="TOP_CENTER" onKeyReleased="#level3lowListner" text="61" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets top="15.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="to">
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </Text>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+                  <TextField fx:id="level3up" alignment="TOP_CENTER" onKeyReleased="#level3upListner" text="71" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets top="15.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Region prefHeight="371.0" prefWidth="51.0" HBox.hgrow="ALWAYS" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Level 4">
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </Text>
+                  <Region prefHeight="51.0" prefWidth="51.0" HBox.hgrow="ALWAYS" />
+                  <TextField fx:id="level4low" alignment="TOP_CENTER" onKeyReleased="#level4lowListner" text="72" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets top="15.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="to">
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </Text>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+                  <TextField fx:id="level4up" alignment="TOP_CENTER" onKeyReleased="#level4upListner" text="83" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets top="15.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Region prefHeight="371.0" prefWidth="51.0" HBox.hgrow="ALWAYS" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Level 5">
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </Text>
+                  <Region prefHeight="51.0" prefWidth="51.0" HBox.hgrow="ALWAYS" />
+                  <TextField fx:id="level5low" alignment="TOP_CENTER" onKeyReleased="#level5lowListner" text="84" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets top="15.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="to">
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </Text>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+                  <TextField fx:id="level5up" alignment="TOP_CENTER" onKeyReleased="#level5upListner" text="92" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets top="15.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Region prefHeight="371.0" prefWidth="51.0" HBox.hgrow="ALWAYS" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Level 6">
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </Text>
+                  <Region prefHeight="51.0" prefWidth="51.0" HBox.hgrow="ALWAYS" />
+                  <TextField fx:id="level6low" alignment="TOP_CENTER" onKeyReleased="#level6lowListner" text="93" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets top="15.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="to">
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </Text>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+                  <TextField fx:id="level6up" alignment="TOP_CENTER" onKeyReleased="#level6upListner" text="96" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets top="15.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Region prefHeight="371.0" prefWidth="51.0" HBox.hgrow="ALWAYS" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Level 7">
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </Text>
+                  <Region prefHeight="51.0" prefWidth="51.0" HBox.hgrow="ALWAYS" />
+                  <TextField fx:id="level7low" alignment="TOP_CENTER" onKeyReleased="#level7lowListner" text="97" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets top="15.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="to">
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </Text>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+                  <TextField alignment="TOP_CENTER" disable="true" editable="false" text="100" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets top="15.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Region prefHeight="371.0" prefWidth="9.0" HBox.hgrow="ALWAYS" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+   <top>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="OSSD Boundaries Converted" textAlignment="CENTER" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets top="10.0" />
+         </BorderPane.margin>
+      </Text>
+   </top>
+   <bottom>
+      <HBox prefHeight="4.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+            <Button cancelButton="true" mnemonicParsing="false" onAction="#close" text="Cancel" />
+            <Region prefHeight="33.0" prefWidth="14.0" />
+            <Button mnemonicParsing="false" onAction="#OK" text="OK" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets bottom="6.0" />
+               </HBox.margin>
+            </Button>
+            <Region prefHeight="27.0" prefWidth="32.0" />
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="6.0" />
+         </BorderPane.margin>
+      </HBox>
+   </bottom>
+</BorderPane>
